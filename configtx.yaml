@@ -1,0 +1,19 @@
+Organizations:
+  - Name: Org1MSP
+    ID: Org1MSP
+    Policies:
+      Readers:
+        Type: Signature
+        Rule: "OR('Org1MSP.admin', 'Org1MSP.peer', 'Org1MSP.client')"
+      Writers:
+        Type: Signature
+        Rule: "OR('Org1MSP.admin', 'Org1MSP.client')"
+
+Application:
+  Policies:
+    LifecycleEndorsement:
+      Type: Signature
+      Rule: "OR('Org1MSP.peer')"
+
+Orderer:
+  OrdererType: solo
