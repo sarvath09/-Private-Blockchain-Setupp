@@ -1,0 +1,5 @@
+peer:
+  networkId: fabric-network
+  address: 0.0.0.0:7051
+  chaincodeListenAddress: 0.0.0.0:7052
+  localMspId: Org1MSP
