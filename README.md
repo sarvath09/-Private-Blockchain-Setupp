@@ -66,5 +66,5 @@ Web3.js / Fabric SDK for interaction
 
 Task4:
 
-![output1]
+![output1](https://github.com/user-attachments/assets/6fa3c4b5-32e0-4db8-96d4-01450fbffadb)
 
